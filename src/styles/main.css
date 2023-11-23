@@ -1047,4 +1047,136 @@ ul, ol {
   .footer .container .footer-container .info-footer.contacts-footer, .footer .container .footer-container .links-footer.contacts-footer, .footer .container .footer-container .contacts-footer.contacts-footer {
     margin-bottom: 0;
   }
+}
+.about-page {
+  min-height: 100vh;
+}
+.about-page .about-container .about-intro {
+  width: 100%;
+  height: 85vh;
+  background: url("../images/imgs/bg13.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about-page .about-container .about-intro .container .intro-info {
+  position: absolute;
+  top: 50%;
+  left: 7.5%;
+  transform: translateY(-50%);
+  width: 85%;
+}
+.about-page .about-container .about-intro .container .intro-info h3 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 0.05em;
+  color: #feb406;
+}
+.about-page .about-container .about-intro .container .intro-info h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 15px;
+  height: 1px;
+  background-color: #feb406;
+}
+.about-page .about-container .about-intro .container .intro-info p {
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+}
+.about-page .about-container .about-intro .container .intro-info p span {
+  margin-left: 10px;
+  color: #feb406;
+}
+@media screen and (max-width: 480px) {
+  .about-page .about-container .about-intro .container .intro-info p {
+    font-size: 36px;
+  }
+}
+.about-page .about-container .about-intro .container .intro-info .work-with {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 40px;
+  position: relative;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 0 30px;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with a::before {
+  content: "";
+  width: 1px;
+  height: 15px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  background-color: #feb406;
+  transition: all ease-in-out 0.5s;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with a::after {
+  content: "";
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  background-color: #feb406;
+  transition: all ease-in-out 0.5s;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with::before {
+  content: "";
+  width: 80px;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background-color: #feb406;
+  transition: all ease-in-out 0.5s;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  background-color: #feb406;
+  transition: all ease-in-out 0.5s;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with:hover a::before,
+.about-page .about-container .about-intro .container .intro-info .work-with:hover a::after {
+  height: 66px;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with:hover a::before {
+  top: -24px;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with:hover a::after {
+  bottom: -24px;
+}
+.about-page .about-container .about-intro .container .intro-info .work-with:hover::before, .about-page .about-container .about-intro .container .intro-info .work-with:hover::after {
+  width: 168px;
+}
+.about-page .about-container .details-wraper {
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
 }/*# sourceMappingURL=main.css.map */
