@@ -1179,4 +1179,284 @@ ul, ol {
   width: 100%;
   height: 200px;
   background-color: aqua;
+}
+
+.shop-intro {
+  position: relative;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  overflow: hidden;
+  margin-bottom: 300px;
+}
+.shop-intro .rec {
+  position: absolute;
+  top: -184px;
+  right: 120px;
+  width: 368px;
+  height: 368px;
+  border-radius: 50%;
+  opacity: 0.3;
+  background: rgba(0, 0, 0, 0.93);
+}
+.shop-intro .rec.rec-bottom {
+  top: unset;
+  bottom: -120px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.93);
+}
+.shop-intro .container {
+  width: 100%;
+}
+.shop-intro .container .shop-intro-container {
+  padding-top: 130px;
+}
+.shop-intro .container .shop-intro-container .product-images-wraper {
+  width: 55%;
+  margin: auto;
+  margin-top: 288px;
+  position: relative;
+}
+.shop-intro .container .shop-intro-container .product-images-wraper .main-img img {
+  display: block;
+  width: 310px;
+  rotate: -35deg;
+  position: absolute;
+  left: 45%;
+  transform: translateX(-50%);
+  top: -260px;
+}
+.shop-intro .container .shop-intro-container .product-images-wraper .main-img::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  transform: translateX(-50%);
+  width: 316px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.93);
+  filter: blur(9px);
+  border-radius: 50%;
+}
+.shop-intro .container .shop-intro-container .product-images-wraper .sub-imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.shop-intro .container .shop-intro-container .product-images-wraper .sub-imgs img {
+  display: block;
+  width: 190px;
+}
+.shop-intro .container .shop-intro-container .left-shap {
+  position: absolute;
+  display: block;
+  left: -230px;
+  bottom: 400px;
+  opacity: 0.5;
+}
+.shop-intro .container .shop-intro-container .right-shap {
+  position: absolute;
+  display: block;
+  right: -230px;
+  bottom: 450px;
+  opacity: 0.5;
+  transform: rotate(90deg);
+}
+.shop-intro .container .shop-intro-container .heading {
+  z-index: 3;
+  padding: 50px 0 180px 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.shop-intro .container .shop-intro-container .heading h3 {
+  font-size: 75px;
+  font-weight: 500;
+  color: #FFF;
+  margin: 47px 0 36px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.shop-intro .container .shop-intro-container .heading .featured-ingredients {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  background-color: #222;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  line-height: 1;
+  padding: 23px 54px 23px 54px;
+}
+.shop-intro .container .shop-intro-container .heading .featured-ingredients:hover {
+  background-color: #FFF;
+  color: #222;
+  border: 1px solid #222;
+}
+.shop-intro .right-tree {
+  position: absolute;
+  top: 20%;
+  right: -20px;
+  z-index: 2;
+}
+.shop-intro .left-tree {
+  position: absolute;
+  top: 20%;
+  left: -35px;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform: translate3d(0px, -18.5545px, 0px);
+  filter: blur(10px);
+}
+.shop-intro .right-tree-bottom {
+  position: absolute;
+  bottom: 10%;
+  right: -20px;
+  z-index: 2;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transform: translate3d(0px, -18.5545px, 0px);
+  filter: blur(10px);
+}
+.shop-intro .left-tree-bottom {
+  position: absolute;
+  bottom: 10%;
+  left: -60px;
+  z-index: 3;
+}
+.shop-intro::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 100%;
+  height: 50px;
+  background-image: url(../images/imgs/banner-bg-shape.png);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.shop-navbar {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.shop-navbar.onscroll {
+  position: fixed;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
+  box-shadow: 0px 4px 10px rgba(3, 4, 28, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+.shop-navbar .container {
+  width: 95%;
+}
+.shop-navbar .container .shop-navbar-container {
+  display: flex;
+  align-items: center;
+}
+.shop-navbar .container .shop-navbar-container .nav-links {
+  display: flex;
+  width: 45%;
+}
+.shop-navbar .container .shop-navbar-container .nav-links li {
+  display: block;
+  margin-right: 50px;
+}
+.shop-navbar .container .shop-navbar-container .nav-links li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  padding: 28px 0;
+  display: block;
+  line-height: 1;
+}
+.shop-navbar .container .shop-navbar-container .nav-links li a.active {
+  color: #CCC;
+}
+.shop-navbar .container .shop-navbar-container .shop-logo {
+  width: 20%;
+  text-align: center;
+}
+.shop-navbar .container .shop-navbar-container .icons-container {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .search {
+  width: 50px;
+  height: 50px;
+  padding: 5px 20px 5px 5px;
+  position: relative;
+  cursor: pointer;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .search img {
+  width: 100%;
+  height: 100%;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .search::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 50%;
+  background-color: #FFF;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .login-register {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 0;
+  position: relative;
+  margin-left: 20px;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .login-register img {
+  width: 25px;
+  height: 25px;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .login-register span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-left: 12px;
+  color: #FFF;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .login-register::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 2px solid #FFF;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 33%;
+  transform: rotate(45deg);
+}
+.shop-navbar .container .shop-navbar-container .icons-container .menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.shop-navbar .container .shop-navbar-container .icons-container .menu img {
+  width: 30px;
+  height: 30px;
 }/*# sourceMappingURL=main.css.map */
