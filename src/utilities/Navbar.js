@@ -73,7 +73,7 @@ const Navbar = () => {
                                 <NavLink to="/gallery" onClick={()=>setMobileMenu(true)}>المدونة</NavLink>
                             </li>
                             <li>
-                                <NavLink to="http://127.0.0.1:5500/index.html" onClick={()=>setMobileMenu(true)}>الأعمال</NavLink>
+                                <NavLink to="/blog" onClick={()=>setMobileMenu(true)}>الأعمال</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/shop"  onClick={()=>setMobileMenu(true)}>من نحن</NavLink>
@@ -94,7 +94,7 @@ const Navbar = () => {
                                 <NavLink to="/gallery" onClick={()=>setMobileMenu(true)}>PRODUCTS</NavLink>
                             </li>
                             <li>
-                                <NavLink to="http://127.0.0.1:5500/index.html" onClick={()=>setMobileMenu(true)}>BLOG</NavLink>
+                                <NavLink to="/blog" onClick={()=>setMobileMenu(true)}>BLOG</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/shop"  onClick={()=>setMobileMenu(true)}>SHOP</NavLink>
