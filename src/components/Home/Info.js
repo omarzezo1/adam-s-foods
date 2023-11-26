@@ -20,7 +20,7 @@ const Info = () => {
               </h3>
               <div
                 className="inner-details"
-                style={{ display: linkIndek === 1 ? "flex" : "none" }}
+                style={{ display: linkIndek === "1" ? "flex" : "none" }}
               >
                 <div className="img">
                   <img src={SideImg1} alt="side-img" />
@@ -56,7 +56,7 @@ const Info = () => {
               </h3>
               <div
                 className="inner-details"
-                style={{ display: linkIndek === 2 ? "flex" : "none" }}
+                style={{ display: linkIndek === "2" ? "flex" : "none" }}
               >
                 <div className="img">
                   <img src={SideImg1} alt="side-img" />
@@ -92,7 +92,7 @@ const Info = () => {
               </h3>
               <div
                 className="inner-details"
-                style={{ display: linkIndek === 3 ? "flex" : "none" }}
+                style={{ display: linkIndek === "3" ? "flex" : "none" }}
               >
                 <div className="img">
                   <img src={SideImg1} alt="side-img" />
@@ -128,7 +128,7 @@ const Info = () => {
               </h3>
               <div
                 className="inner-details"
-                style={{ display: linkIndek === 4 ? "flex" : "none" }}
+                style={{ display: linkIndek === "4" ? "flex" : "none" }}
               >
                 <div className="img">
                   <img src={SideImg1} alt="side-img" />
@@ -164,7 +164,7 @@ const Info = () => {
               </h3>
               <div
                 className="inner-details"
-                style={{ display: linkIndek === 5 ? "flex" : "none" }}
+                style={{ display: linkIndek === "5" ? "flex" : "none" }}
               >
                 <div className="img">
                   <img src={SideImg1} alt="side-img" />
@@ -200,7 +200,7 @@ const Info = () => {
               </h3>
               <div
                 className="inner-details"
-                style={{ display: linkIndek === 6 ? "flex" : "none" }}
+                style={{ display: linkIndek === "6" ? "flex" : "none" }}
               >
                 <div className="img">
                   <img src={SideImg1} alt="side-img" />
