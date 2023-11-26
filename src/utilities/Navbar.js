@@ -29,7 +29,7 @@ const Navbar = () => {
             setFlag(Ar)
             setLang(false)
         }
-    },[])
+    },[location.pathname])
 
     //show or hide navbar
     useEffect(()=>{

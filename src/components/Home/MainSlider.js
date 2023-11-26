@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/pagination";
 import BG1 from "../../images/imgs/bg-body4.jpg";
-import Adam1 from "../../images/imgs/adam-slide.jpg";
+// import Adam1 from "../../images/imgs/adam-slide.jpg";
 import BG2 from "../../images/imgs/bg2.jpg";
 import BG3 from "../../images/imgs/bg3.jpg";
 import Adam3p from "../../images/imgs/3p-adam.png";

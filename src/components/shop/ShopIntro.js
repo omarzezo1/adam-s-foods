@@ -32,7 +32,7 @@ const ShopIntro = () => {
           </div>
             <div className='heading'>
                 <h3>supex Increase your Energy</h3>
-                <a href="" className="featured-ingredients">Featured Ingredients</a>
+                <a href="/" className="featured-ingredients">Featured Ingredients</a>
             </div>
         </div>
       </div>
