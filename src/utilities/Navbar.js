@@ -91,7 +91,7 @@ const Navbar = () => {
                                 <NavLink to="/about" onClick={()=>setMobileMenu(true)}>ABOUT US</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/gallery" onClick={()=>setMobileMenu(true)}>GALLERY</NavLink>
+                                <NavLink to="/gallery" onClick={()=>setMobileMenu(true)}>PRODUCTS</NavLink>
                             </li>
                             <li>
                                 <NavLink to="http://127.0.0.1:5500/index.html" onClick={()=>setMobileMenu(true)}>BLOG</NavLink>

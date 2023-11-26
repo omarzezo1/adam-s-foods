@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import Product1 from '../../images/imgs/product-1.jpg'
-import Product2 from '../../images/imgs/product-2.jpg'
+import Product1 from '../../images/imgs/product-1.png'
+import Product2 from '../../images/imgs/product-2.png'
 
 // import required modules
 import { Navigation } from "swiper/modules";

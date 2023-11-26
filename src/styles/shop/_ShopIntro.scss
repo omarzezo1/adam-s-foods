@@ -1,7 +1,7 @@
 .shop-intro{
     position: relative;
     // background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
-    // background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #8f6B29);
+    background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #8f6B29);
     background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
     overflow: hidden;
     margin-bottom: 300px;
@@ -45,7 +45,7 @@
                         content: "";
                         position: absolute;
                         left: 50%;
-                        bottom: -60px;
+                        bottom: -50px;
                         transform: translateX(-50%);
                         width: 316px;
                         height: 15px;
@@ -82,7 +82,7 @@
             }
             .heading{
                 z-index: 3;
-                padding: 50px 0 180px 0;
+                padding: 40px 0 180px 0;
                 width: fit-content;
                 margin: auto;
                 h3{
@@ -111,7 +111,7 @@
                     padding: 23px 54px 23px 54px;
                     &:hover{
                         background-color: #FFF;
-                        color: #222;
+                        color: $mainColor;
                         border: 1px solid #222;
                     }
                 }

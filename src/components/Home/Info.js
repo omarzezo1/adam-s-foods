@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import SideImg1 from "../../images/imgs/side-img1.jpg";
+import SideImg1 from "../../images/imgs/about-img.jpg";
 
 const Info = () => {
   const [linkIndek, setLinkIndex] = useState("1");

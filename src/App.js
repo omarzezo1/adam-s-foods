@@ -4,6 +4,7 @@ import {Routes, Route, BrowserRouter} from 'react-router-dom'
 import AboutUs from './pages/AboutUs';
 import ScrollToTop from './utilities/ScrollToTop'
 import Shop from './pages/shop/Shop';
+import Contacts from './pages/Contacts';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<AboutUs/>}/>
-        <Route path='/shop' element={<Shop/>}/>
+        <Route path='/contacts' element={<Contacts/>}/>
+        {/* <Route path='/shop' element={<Shop/>}/> */}
       </Routes>
     </main>
     </ScrollToTop>

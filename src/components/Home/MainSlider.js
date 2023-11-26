@@ -1,17 +1,31 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import BG1 from "../../images/imgs/bg1.jpg";
+import BG1 from "../../images/imgs/bg-body4.jpg";
+import Adam1 from "../../images/imgs/adam-slide.jpg";
 import BG2 from "../../images/imgs/bg2.jpg";
 import BG3 from "../../images/imgs/bg3.jpg";
+import Adam3p from "../../images/imgs/3p-adam.png";
 
 import { Pagination } from "swiper/modules";
 
 const MainSlider = () => {
+  // const [coloring, setColoring] = useState(false)
+
+  // useEffect(()=>{
+  //   window.addEventListener('scroll', ()=>{
+  //     if(window.scrollY > 0){
+  //       setColoring(true)
+  //     }else{
+  //       setColoring(false)
+  //     }
+  //   })
+  // },[])
+
   return (
     <section className="intro">
       <div className="social-media-links">
@@ -55,9 +69,13 @@ const MainSlider = () => {
                   Safer
                   <span>than ever</span>
                 </p>
-              </div>
-              <div className="work-with">
+                <div className="work-with">
                 <Link to="">WORK WITH US</Link>
+                </div>
+              </div>
+
+              <div className="slide-img">
+                <img src={Adam3p} alt="slide-img"/>
               </div>
             </div>
           </div>
@@ -77,10 +95,14 @@ const MainSlider = () => {
                   Safer
                   <span>than ever</span>
                 </p>
-              </div>
-              <div className="work-with">
+                <div className="work-with">
                 <Link to="">WORK WITH US</Link>
+                </div>
               </div>
+
+              {/* <div className="slide-img">
+                <img src={Adam3p} alt="slide-img"/>
+              </div> */}
             </div>
           </div>
         </SwiperSlide>
@@ -99,10 +121,14 @@ const MainSlider = () => {
                   Safer
                   <span>than ever</span>
                 </p>
-              </div>
-              <div className="work-with">
+                <div className="work-with">
                 <Link to="">WORK WITH US</Link>
+                </div>
               </div>
+
+              {/* <div className="slide-img">
+                <img src={Adam3p} alt="slide-img"/>
+              </div> */}
             </div>
           </div>
         </SwiperSlide>
