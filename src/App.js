@@ -8,7 +8,7 @@ import Contacts from './pages/Contacts';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"https://omarzezo1.github.io/adam-s-foods"}>
     <ScrollToTop>
     <main className="App">
       <Routes>
