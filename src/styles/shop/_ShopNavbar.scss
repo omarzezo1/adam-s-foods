@@ -24,6 +24,20 @@
         .shop-navbar-container{
             display: flex;
             align-items: center;
+            .mobile-menu{
+                width: 60px;
+                height: 60px;
+                margin-left: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background: rgba(0, 0, 0, 0.3);
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
             .nav-links{
                 display: flex;
                 width: 45%;
@@ -118,6 +132,22 @@
                         width: 30px;
                         height: 30px;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .shop-navbar{
+        padding: 10px 0;
+        .container{
+            .shop-navbar-container{
+                .nav-links{
+                    display: none;
+                }
+                .icons-container{
+                    display: none;
                 }
             }
         }

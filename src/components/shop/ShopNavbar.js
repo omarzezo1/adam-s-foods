@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import ShopLogo from '../../images/imgs/shop-logo.png'
+import ShopLogo from '../../images/imgs/shop-logo1.png'
 import Search from '../../images/svg/search.svg'
 import User from '../../images/svg/user.svg'
 import Menu from '../../images/svg/menu-shop.svg'
+import MobileMenu from '../../images/svg/menu-2.svg'
 
 const ShopNavbar = () => {
     const [navScroll, setNavScroll] = useState(false)
@@ -30,6 +31,9 @@ const ShopNavbar = () => {
                 </ul>
                 <div className='shop-logo'>
                     <img src={ShopLogo} alt='shop-logo'/>
+                </div>
+                <div className='mobile-menu'>
+                    <img src={MobileMenu} alt='mobile-menu'/>
                 </div>
                 <div className='icons-container'>
                     <div className='search'><img src={Search} alt='user'/></div>

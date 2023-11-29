@@ -10,7 +10,7 @@ import LeftTree from "../../images/imgs/banner-shape-05.png";
 
 const ShopIntro = () => {
   return (
-    <div className="shop-intro">
+    <section className="shop-intro">
       <div className="rec"></div>
       <div className="rec rec-bottom"></div>
       <img className="right-tree" src={RightTree} alt="tree" />
@@ -31,12 +31,12 @@ const ShopIntro = () => {
             </div>
           </div>
             <div className='heading'>
-                <h3>supex Increase your Energy</h3>
+                <h3>ADMOS Increase your Energy</h3>
                 <a href="/" className="featured-ingredients">Featured Ingredients</a>
             </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
