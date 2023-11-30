@@ -23,11 +23,6 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-@media screen and (max-width: 480px) {
-  body {
-    padding-bottom: 50px;
-  }
-}
 
 a {
   text-decoration: none;
@@ -44,6 +39,12 @@ ul, ol {
 @media screen and (max-width: 480px) {
   .container {
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .shop-page {
+    padding-bottom: 50px;
   }
 }
 
