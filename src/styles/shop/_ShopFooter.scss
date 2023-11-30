@@ -1,10 +1,10 @@
-.footer-shop{
+.footer-shop {
     padding: 100px 0 30px 0;
     position: relative;
     z-index: 1;
     margin-top: 100px;
     background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
-    &::before{
+    &::before {
         content: "";
         position: absolute;
         left: 0;
@@ -16,29 +16,29 @@
         background-position: center;
         z-index: -1;
     }
-    .footer-container{
-        .inner-footer{
+    .footer-container {
+        .inner-footer {
             width: 80%;
             margin: auto;
             padding: 60px 0px 40px 0px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
             display: flex;
             align-items: center;
-            .footer-nav{
+            .footer-links {
                 width: 35%;
-                ul{
+                ul {
                     padding-left: 50px;
                     display: flex;
-                    li{
-                        a{
+                    li {
+                        a {
                             font-weight: 600;
                             font-size: 16px;
-                            color: #FFF;
+                            color: #fff;
                             text-transform: capitalize;
                             margin-right: 36px;
                             padding: 5px;
                             position: relative;
-                            &::after{
+                            &::after {
                                 content: "";
                                 width: 0;
                                 height: 1px;
@@ -47,67 +47,105 @@
                                 left: 0;
                                 bottom: 0;
                             }
-                            &:hover::after{
+                            &:hover::after {
                                 width: 95%;
                                 background-color: $mainColor;
-                                transition: all ease-in-out .5s;
+                                transition: all ease-in-out 0.5s;
                             }
                         }
                     }
                 }
             }
-            .footer-logo{
+            .footer-logo {
                 width: 30%;
                 text-align: center;
             }
-            .footer-social{
+            .footer-social {
                 width: 35%;
                 padding-right: 50px;
                 text-align: right;
-                a{
+                a {
                     display: inline-block;
                     padding: 5px;
                     margin-left: 36px;
-                    &:first-of-type{
+                    &:first-of-type {
                         margin-left: 0;
                     }
-                    img{
+                    img {
                         width: 25px;
                         height: 25px;
                     }
                 }
             }
         }
-        .end-footer{
+        .end-footer {
             display: flex;
             width: 80%;
             margin: auto;
             padding: 50px 50px 0 50px;
-            .copyright{
+            .copyright {
                 width: 50%;
-                color: #FFF;
+                color: #fff;
                 font-size: 15px;
                 text-transform: capitalize;
                 font-weight: 600;
                 display: flex;
                 align-items: center;
-                a{
-                    color: #FFF;
+                a {
+                    color: #fff;
                     margin-left: 5px;
                 }
             }
-            .pages{
+            .pages {
                 width: 50%;
                 text-align: right;
-                a{
+                a {
                     display: inline-block;
                     margin-left: 20px;
-                    color: #FFF;
+                    color: #fff;
                     font-size: 15px;
                     text-transform: capitalize;
                     font-weight: 600;
-                    &:first-of-type{
+                    &:first-of-type {
                         margin-left: 0;
+                    }
+                }
+            }
+        }
+        .footer-navigation {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 9;
+            width: 100%;
+            padding: 15px 10px 5px 10px;
+            background-color: #333;
+            display: none;
+            ul {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                li {
+                    position: relative;
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                    span{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 12px;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: $mainColor;
+                        color: #fff;
+                        position: absolute;
+                        top: -5px;
+                        left: -12px;
                     }
                 }
             }
@@ -115,40 +153,45 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .footer-shop{
-        .footer-container{
-            .inner-footer{
+@media screen and (max-width: 480px) {
+    .footer-shop {
+        .footer-container {
+            .inner-footer {
                 flex-direction: column;
-                .footer-nav, .footer-logo, .footer-social{
+                .footer-links,
+                .footer-logo,
+                .footer-social {
                     width: 100%;
                     margin-bottom: 30px;
-                    ul{
+                    ul {
                         padding: 0;
                         justify-content: space-between;
-                        li{
-                            a{
+                        li {
+                            a {
                                 margin-right: 0;
                             }
                         }
                     }
                 }
             }
-            .end-footer{
+            .end-footer {
                 flex-direction: column;
                 width: 90%;
                 padding: 10px 10px 0 10px;
-                .copyright{
+                .copyright {
                     width: 80%;
                     margin: auto;
                     flex-direction: column;
                     align-items: center;
                 }
-                .pages{
+                .pages {
                     width: 80%;
                     margin: auto;
                     margin-top: 20px;
                 }
+            }
+            .footer-navigation {
+                display: flex;
             }
         }
     }

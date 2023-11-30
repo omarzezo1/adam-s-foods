@@ -3,7 +3,7 @@
     top: 24px;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 9;
     &.onscroll{
         position: fixed;
         background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
@@ -28,7 +28,7 @@
                 width: 60px;
                 height: 60px;
                 margin-left: auto;
-                display: flex;
+                display: none;
                 align-items: center;
                 justify-content: center;
                 border-radius: 50%;
@@ -148,6 +148,9 @@
                 }
                 .icons-container{
                     display: none;
+                }
+                .mobile-menu{
+                    display: flex;
                 }
             }
         }

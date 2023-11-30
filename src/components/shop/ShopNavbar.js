@@ -25,8 +25,8 @@ const ShopNavbar = () => {
             <div className='shop-navbar-container'>
                 <ul className='nav-links'>
                     <li><NavLink to="/shop">Home</NavLink></li>
-                    <li><NavLink to="/products">Products</NavLink></li>
-                    <li><NavLink to="/offers">Best Offers</NavLink></li>
+                    <li><NavLink to="/shop/products">Products</NavLink></li>
+                    <li><NavLink to="/shop/offers">Best Offers</NavLink></li>
                     <li><NavLink to="/blog">Blog</NavLink></li>
                 </ul>
                 <div className='shop-logo'>
