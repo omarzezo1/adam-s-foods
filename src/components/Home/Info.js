@@ -59,7 +59,7 @@ const Info = () => {
                 style={{ display: linkIndek === "2" ? "flex" : "none" }}
               >
                 <div className="img">
-                  <img src={SideImg1} alt="side-img" />
+                  <img loading="lazy" src={SideImg1} alt="side-img" />
                 </div>
                 <div className="inner-info">
                   <h5>Insights</h5>
@@ -95,7 +95,7 @@ const Info = () => {
                 style={{ display: linkIndek === "3" ? "flex" : "none" }}
               >
                 <div className="img">
-                  <img src={SideImg1} alt="side-img" />
+                  <img loading="lazy" src={SideImg1} alt="side-img" />
                 </div>
                 <div className="inner-info">
                   <h5>News and Media</h5>
@@ -131,7 +131,7 @@ const Info = () => {
                 style={{ display: linkIndek === "4" ? "flex" : "none" }}
               >
                 <div className="img">
-                  <img src={SideImg1} alt="side-img" />
+                  <img loading="lazy" src={SideImg1} alt="side-img" />
                 </div>
                 <div className="inner-info">
                   <h5>Our Group</h5>
@@ -167,7 +167,7 @@ const Info = () => {
                 style={{ display: linkIndek === "5" ? "flex" : "none" }}
               >
                 <div className="img">
-                  <img src={SideImg1} alt="side-img" />
+                  <img loading="lazy" src={SideImg1} alt="side-img" />
                 </div>
                 <div className="inner-info">
                   <h5>Opportunity</h5>
@@ -203,7 +203,7 @@ const Info = () => {
                 style={{ display: linkIndek === "6" ? "flex" : "none" }}
               >
                 <div className="img">
-                  <img src={SideImg1} alt="side-img" />
+                  <img loading="lazy" src={SideImg1} alt="side-img" />
                 </div>
                 <div className="inner-info">
                   <h5>Location Facts</h5>

@@ -35,7 +35,7 @@ const Testimonials = () => {
               <SwiperSlide>
                 <div className="testimonial">
                   <div className="avatar">
-                    <img src={Avatar1} alt="avatar-1" />
+                    <img loading="lazy" src={Avatar1} alt="avatar-1" />
                   </div>
                   <div className="testimonial-details">
                     <p>
@@ -54,7 +54,7 @@ const Testimonials = () => {
               <SwiperSlide>
                 <div className="testimonial">
                   <div className="avatar">
-                    <img src={Avatar2} alt="avatar-1" />
+                    <img loading="lazy" src={Avatar2} alt="avatar-1" />
                   </div>
                   <div className="testimonial-details">
                     <p>
@@ -94,28 +94,28 @@ const Testimonials = () => {
           }}
         >
           <SwiperSlide>
-            <img src={Part1} alt="" />
+            <img loading="lazy" src={Part1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Part2} alt="" />
+            <img loading="lazy" src={Part2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Part3} alt="" />
+            <img loading="lazy" src={Part3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Part4} alt="" />
+            <img loading="lazy" src={Part4} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Part5} alt="" />
+            <img loading="lazy" src={Part5} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Part1} alt="" />
+            <img loading="lazy" src={Part1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Part2} alt="" />
+            <img loading="lazy" src={Part2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Part3} alt="" />
+            <img loading="lazy" src={Part3} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>

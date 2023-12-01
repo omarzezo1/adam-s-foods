@@ -30,7 +30,7 @@ const OurProducts = () => {
                     <p>03</p>
                 </div>
                 <div className="product-img">
-                    <img src={Product1} alt="product-1"/>
+                    <img loading="lazy" src={Product1} alt="product-1"/>
                 </div>
                 <div className="product-info">
                     <h3>
@@ -46,7 +46,7 @@ const OurProducts = () => {
                     <p>03</p>
                 </div>
                 <div className="product-img">
-                    <img src={Product2} alt="product-1"/>
+                    <img loading="lazy" src={Product2} alt="product-1"/>
                 </div>
                 <div className="product-info">
                     <h3>

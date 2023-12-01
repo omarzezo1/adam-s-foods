@@ -9,7 +9,7 @@ import BG1 from "../../images/imgs/bg-body4.jpg";
 // import Adam1 from "../../images/imgs/adam-slide.jpg";
 import BG2 from "../../images/imgs/bg2.jpg";
 import BG3 from "../../images/imgs/bg3.jpg";
-import Adam3p from "../../images/imgs/3p-adam.png";
+import Adam3p from "../../images/imgs/3p-adam.webp";
 
 import { Pagination } from "swiper/modules";
 
@@ -56,7 +56,7 @@ const MainSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={BG1} alt="bg-1" />
+          <img loading="lazy" src={BG1} alt="bg-1" />
           <div className="overlay">
             <div className="container">
               <div className="info-wraper">
@@ -75,14 +75,14 @@ const MainSlider = () => {
               </div>
 
               <div className="slide-img">
-                <img src={Adam3p} alt="slide-img"/>
+                <img loading="lazy" src={Adam3p} alt="slide-img"/>
               </div>
             </div>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={BG2} alt="bg-1" />
+          <img loading="lazy" src={BG2} alt="bg-1" />
           <div className="overlay">
             <div className="container">
               <div className="info-wraper">
@@ -108,7 +108,7 @@ const MainSlider = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={BG3} alt="bg-1" />
+          <img loading="lazy" src={BG3} alt="bg-1" />
           <div className="overlay">
             <div className="container">
               <div className="info-wraper">
