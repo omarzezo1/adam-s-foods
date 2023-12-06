@@ -174,3 +174,31 @@
         }
     }
 }
+
+@media screen and (max-width: 480px){
+    .contacts-page{
+        .container{
+            .contacts-page-wraper{
+                .title{
+                    h2{
+                        font-size: 36px;
+                    }
+                }
+                .contacts-container{
+                    flex-direction: column;
+                    margin-top: 60px;
+                    .contact-info{
+                        width: 95%;
+                        margin-bottom: 30px;
+                        .map{
+                            width: 100%;
+                        }
+                    }
+                    .contact-form{
+                        width: 95%;
+                    }
+                }
+            }
+        }
+    }
+}

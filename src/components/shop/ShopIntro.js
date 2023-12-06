@@ -1,10 +1,7 @@
 import React from "react";
 import MainImg from "../../images/imgs/banner-img-2.png";
 import SubImg from "../../images/imgs/banner-img-1.png";
-// import LeftImg from "../../images/imgs/banner-shape-03.png";
-// import RightImg from "../../images/imgs/banner-shape-04.png";
 import Cutting from "../../images/imgs/claws-animal-scratches_755228-528 (1).png";
-// import Cutting from "../../images/imgs/claws-animal-scratches_755228-528.png";
 import RightTree from "../../images/imgs/banner-shape-01.png";
 import LeftTree from "../../images/imgs/banner-shape-05.png";
 

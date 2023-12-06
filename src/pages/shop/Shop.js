@@ -6,6 +6,7 @@ import BestProducts from '../../components/shop/BestProducts'
 import ProductFeatures from '../../components/shop/ProductFeatures'
 import Ask from '../../components/shop/Ask'
 import ShopFooter from '../../components/shop/ShopFooter'
+import OurBlogs from '../../components/shop/OurBlogs'
 
 const Shop = () => {
   return (
@@ -15,6 +16,7 @@ const Shop = () => {
         <ProductInfo/>
         <BestProducts/>
         <ProductFeatures/>
+        <OurBlogs/>
         <Ask/>
         <ShopFooter/>
     </div>

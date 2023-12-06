@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Info from '../components/Home/Info'
-import Navbar from "../utilities/Navbar";
-import Footer from "../utilities/Footer";
+import Info from '../../components/Home/Info'
+import Navbar from "../../utilities/Navbar";
+import Footer from "../../utilities/Footer";
 
 const AboutUs = () => {
   return (

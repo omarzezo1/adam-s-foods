@@ -36,12 +36,14 @@
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                width: 50%;
+                width: 70%;
                 ul {
-                    width: fit-content;
+                    width: 100%;
+                    text-align: right;
                     li {
                         display: inline-block;
                         margin-right: 15px;
+                        text-align: left;
                         a {
                             font-size: 12px;
                             font-weight: 600;
@@ -106,8 +108,8 @@
     }
 }
 
-
-@media screen and (max-width: 480px){
+//sm screen
+@media screen and (max-width: 991px){
     .navbar{
         .container{
             .nav-container{

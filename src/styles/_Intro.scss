@@ -239,9 +239,10 @@
 }
 
 
-@media screen and (max-width: 480px) {
+
+//global responsive
+@media screen and (max-width: 1023px) {
     .intro {
-        height: 110vh;
         .social-media-links {
             display: none;
         }
@@ -268,5 +269,29 @@
                 }
             }
         }
+    }
+}
+
+
+//xs screen
+@media screen and (max-width: 576px) {
+    .intro {
+        height: 110vh;
+    }
+}
+
+
+//small screen
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .intro {
+        height: 125vh;
+    }
+}
+
+
+//md screen
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .intro {
+        height: 150vh;
     }
 }

@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../utilities/Navbar";
-import Footer from "../utilities/Footer";
-import Call from "../images/svg/phone.svg";
-import Email from "../images/svg/mail.svg";
-import Location from "../images/svg/location.svg";
+import Navbar from "../../utilities/Navbar";
+import Footer from "../../utilities/Footer";
+import Call from "../../images/svg/phone.svg";
+import Email from "../../images/svg/mail.svg";
+import Location from "../../images/svg/location.svg";
 
 const Contacts = () => {
   return (

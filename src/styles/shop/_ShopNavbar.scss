@@ -41,6 +41,10 @@
             .nav-links{
                 display: flex;
                 width: 45%;
+                transition: all ease-in-out .3s;
+                .close-menu{
+                    display: none;
+                }
                 li{
                     display: block;
                     margin-right: 50px;
@@ -49,10 +53,35 @@
                         font-weight: 500;
                         color: #FFF;
                         padding: 28px 0;
-                        display: block;
+                        display: flex;
+                        align-items: center;
                         line-height: 1;
+                        img{
+                            width: 25px;
+                            height: 25px;
+                            display: block;
+                            margin-right: 10px;
+                            display: none;
+                        }
                         &.active{
                             color: $mainColor;
+                        }
+                    }
+                }
+                .login, .signup{
+                    display: none;
+                }
+                .social-icons{
+                    width: 100%;
+                    display: none;
+                    .icons-container{
+                        width: 100%;
+                        a{
+                            display: block;
+                            img{
+                                width: 25px;
+                                height: 25px;
+                            }
                         }
                     }
                 }
@@ -65,7 +94,6 @@
                 width: 35%;
                 display: flex;
                 justify-content: flex-end;
-                // background-color: aqua;
                 .search{
                     width: 50px;
                     height: 50px;
@@ -144,7 +172,67 @@
         .container{
             .shop-navbar-container{
                 .nav-links{
-                    display: none;
+                    width: 65%;
+                    margin-right: -65%;
+                    height: 100vh;
+                    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+                    position: fixed;
+                    right: 0;
+                    top: 0;
+                    padding: 80px 10px;
+                    flex-direction: column;
+                    li{
+                        a{
+                            img{
+                                display: block;
+                            }
+                        }
+                    }
+                    .login, .signup{
+                        display: flex;
+                    }
+                    .social-icons{
+                        display: flex;
+                        .icons-container{
+                            display: flex;
+                            justify-content: space-around;
+                        }
+                    }
+                    .close-menu{
+                        display: block;
+                        background-color: $mainColor;
+                        width: 30px;
+                        height: 30px;
+                        padding: 5px;
+                        border-radius: 10px;
+                        position: absolute;
+                        left: 50%;
+                        top: 40px;
+                        transform: translateX(-50%);
+                        cursor: pointer;
+                    }
+                    &.show-mobile-menu{
+                        margin-right: 0;
+                    }
+                    // .user{
+                    //     display: block;
+                    //     .login, .signup{
+                    //         display: flex;
+                    //         align-items: center;
+                    //         margin-bottom: 20px;
+                    //         img{
+                    //             width: 25px;
+                    //             height: 25px;
+                    //             display: block;
+                    //             margin-right: 10px;
+                    //         }
+                    //         small{
+                    //             font-size: 16px;
+                    //             font-weight: 500;
+                    //             color: #FFF;
+                    //         }
+                    //     }
+                    // }
                 }
                 .icons-container{
                     display: none;
