@@ -47,7 +47,7 @@ const ShopFooter = () => {
                         <Link to={"/"}><img src={Search} alt='home'/></Link>
                     </li>
                     <li>
-                        <Link to={"/shop/cart"}><img src={Cart} alt='home'/></Link>
+                        <Link to={"/cart"}><img src={Cart} alt='home'/></Link>
                         <span>0</span>
                     </li>
                     <li>

@@ -95,6 +95,10 @@
                 a {
                     color: #fff;
                     margin-left: 5px;
+                    transition: all ease-in-out .3s;
+                    &:hover{
+                        color: $mainColor;
+                    }
                 }
             }
             .pages {

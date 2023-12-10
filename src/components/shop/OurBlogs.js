@@ -26,7 +26,7 @@ const OurBlogs = () => {
   return (
     <section className='our-blogs'>
         <div className='section-title'>
-            <h2><Link to="">READ BLOG ARTICLE</Link></h2>
+            <h2>READ BLOG ARTICLE</h2>
         </div>
         <div className='our-blogs-container'>
             <article className='article'>

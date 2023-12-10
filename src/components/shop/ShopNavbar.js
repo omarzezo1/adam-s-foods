@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import ShopLogo from "../../images/imgs/shop-logo1.png";
 import Search from "../../images/svg/search.svg";
 import User from "../../images/svg/user.svg";
-import Menu from "../../images/svg/menu-shop.svg";
+import Cart from "../../images/svg/cart-product-black.svg";
 import MobileMenu from "../../images/svg/menu-2.svg";
 import Close from "../../images/svg/close.svg";
 import Login from "../../images/svg/login.svg";
@@ -20,6 +20,7 @@ import Youtube from "../../images/svg/youtube.svg";
 const ShopNavbar = () => {
   const [navScroll, setNavScroll] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [userMenu, setUserMenu] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -101,12 +102,25 @@ const ShopNavbar = () => {
             <div className="search">
               <img src={Search} alt="user" />
             </div>
-            <div className="login-register">
+            <div className="login-register" onClick={()=>setUserMenu(!userMenu)}>
               <img src={User} alt="search" />
               <span>My Account</span>
+              <div className={userMenu ? "user-menu show":"user-menu"}>
+                <Link to="/login">
+                  <img src={Login} alt=""/>
+                  Login
+                </Link>
+                <Link to="/signup">
+                <img src={User} alt=""/>
+                  Register
+                </Link>
+              </div>
             </div>
-            <div className="menu">
-              <img src={Menu} alt="menu" />
+            <div className="cart">
+              <Link to="/cart">
+              <img src={Cart} alt="menu" />
+              <span>0</span>
+              </Link>
             </div>
           </div>
         </div>

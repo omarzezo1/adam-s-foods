@@ -10,6 +10,9 @@ import SingleBlog from './pages/blog/SingleBlog';
 import Blogs from './pages/blog/Blogs';
 import AllArticles from './pages/blog/AllArticles';
 import SingleProduct from './pages/shop/SingleProduct';
+import Login from './pages/shop/account/Login';
+import Signup from './pages/shop/account/Signup';
+import Cart from './pages/shop/order/Cart';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route path='/about' element={<AboutUs/>}/>
         <Route path='/contacts' element={<Contacts/>}/>
         <Route path='/shop' element={<Shop/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/cart' element={<Cart/>}/>
         <Route path='/shop/product' element={<SingleProduct/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
         <Route path='/blogs/all-articles' element={<AllArticles/>}/>

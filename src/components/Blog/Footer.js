@@ -47,7 +47,7 @@ const Footer = () => {
           <ul className="email-phone">
             <li>
               <h6>إيميل:</h6>
-              <a href="">info@arabianbodybuilding.com</a>
+              <a href="">info@admosfoods.com</a>
             </li>
             <li>
               <h6>تليفون:</h6>
@@ -56,7 +56,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="break">Arabian Bodybuilding<span>Social Channels</span></p>
+      <p className="break">Admos Community<span>Social Channels</span></p>
       <div className="social-icons-wraper">
         <a href=""><img src={Facebook} alt="facebook"/></a>
         <a href=""><img src={Twitter} alt="twitter"/></a>
